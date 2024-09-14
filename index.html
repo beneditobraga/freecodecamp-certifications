@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pesquisa Vocacional</title>
+    <title>Emissão de Nota Fiscal</title>
 </head>
 <body>
-    <h1 id="title">Pesquisa Vocacional</h1>
-    <p id="description">Preencha os dados abaixo</p>
+    <h1 id="title">Emitir Nota Fiscal</h1>
+    <p id="description">Insira os dados abaixo para emissão da nota</p>
     <form id="survey-form">
-        <input id="name" type="text" required />
-        <input id="email" type="email" required />
-        <input id="number" type="number" required />
+        <label id="name-label"><input id="name" type="text" required /></label>
+        <label id="email-label"><input id="email" type="email" required /></label>
+        <label id="number-label"><input id="number" type="number" min="8" max="9" required /></label>
     </form>
 </body>
 </html>
