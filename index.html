@@ -6,12 +6,33 @@
     <title>Emissão de Nota Fiscal</title>
 </head>
 <body>
-    <h1 id="title">Emitir Nota Fiscal</h1>
+    <h1 id="title">Emissão de Nota Fiscal</h1>
     <p id="description">Insira os dados abaixo para emissão da nota</p>
     <form id="survey-form">
-        <label id="name-label"><input id="name" type="text" required /></label>
-        <label id="email-label"><input id="email" type="email" required /></label>
-        <label id="number-label"><input id="number" type="number" min="8" max="9" required /></label>
+        <h4 class="">Tipo de Nota</h4>
+            <label><input type="radio" value="value" name="tipo-de-nota" /> Venda</label>
+            <label><input type="radio" value="value" name="tipo-de-nota" /> Serviço</label>
+        <h3 class="data-title">Emissor</h3>
+            <select name="regime" id="dropdown">
+                <option>Simples Nacional</option>
+                <option>Lucro Presumido</option>
+                <option>Lucro Real</option>
+            </select>
+            <label id="name-label">Razão Social <input id="name" type="text" placeholder="EMPRESA LTDA" required /></label>
+            <label id="email-label">E-mail <input id="email" type="email" placeholder="empresa@empresa.com" required /></label>
+            <label id="number-label">DDD <input id="number" type="number" placeholder="011" min="2" max="3" required /></label>
+            <label id="number-phone">Telefone <input id="number-phone2" type="text" placeholder="9 1234 - 5678" min="8" max="9" required /></label>
+        <h3 class="data-title">Destinatário</h3>
+            <select name="regime" id="dropdown">
+                <option>Simples Nacional</option>
+                <option>Lucro Presumido</option>
+                <option>Lucro Real</option>
+            </select>
+            <label id="name-label">Razão Social <input id="name" type="text" placeholder="EMPRESA LTDA" required /></label>
+            <label id="email-label">E-mail <input id="email" type="email" placeholder="empresa@empresa.com" required /></label>
+            <label id="number-label">DDD <input id="number" type="number" placeholder="011" min="2" max="3" required /></label>
+            <label id="number-phone">Telefone <input id="number-phone2" type="text" placeholder="9 1234 - 5678" min="8" max="9" required /></label>
+        <h3 class="data-title">Valores e Impostos</h3>    
     </form>
 </body>
 </html>
