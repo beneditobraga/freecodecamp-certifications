@@ -1,6 +1,27 @@
 body {
     text-align: center;
-    background-image: url(fundo.jpg);
     background-attachment: fixed;
     background-position: center;
+}
+h1 {
+    color: rgba(0, 0, 0, 0.737);
+}
+p {
+    color: rgba(0, 0, 0, 0.585);
+}
+h3, h4 {
+    color: rgb(0, 0, 0);
+}
+label {
+    color: rgba(0, 0, 0, 0.764); 
+}
+input, button {
+    border-radius: 5px;
+}
+button {
+    color: black;
+}
+.parte3 {
+    display: block;
+    
 }

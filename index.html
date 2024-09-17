@@ -35,15 +35,17 @@
             <label id="number-phone">Telefone <input id="number-phone2" type="text" placeholder="9 1234 - 5678" min="8" max="9" required /></label>
         <h3 class="data-title">Produtos/Serviços</h3>
             <textarea id="textarea" placeholder="Digite aqui seus produtos"></textarea>
-            <button id="submit">Gravar</button>
-        <h3 class="data-title">Valores e Impostos</h3>
-        <p class="text-inci-impostos">Selecione quais impostos incidirá</p>
-            <label id="box-impostos">ISS <input id="box-impostos" type="checkbox" value="value" required /></label>
-            <label id="box-impostos">ICMS <input id="box-impostos" type="checkbox" value="value" required /></label>
-            <label id="box-impostos">IPI <input id="box-impostos" type="checkbox" value="value" required /></label>    
-            <label id="box-impostos">PIS <input id="box-impostos" type="checkbox" value="value" required /></label>
-            <label id="box-impostos">COFINS <input id="box-impostos" type="checkbox" value="value" required /></label>
-            <label id="total-nota">Total da Nota R$ <input id="total-nota" type="text" format="currency" placeholder="1.000,00" required /></label>
+        <div class="parte3">
+            <h3 class="data-title">Valores e Impostos</h3>
+            <p class="text-inci-impostos">Selecione quais impostos incidirá</p>
+                <label id="box-impostos">ISS <input id="box-impostos" type="checkbox" value="value" required /></label>
+                <label id="box-impostos">ICMS <input id="box-impostos" type="checkbox" value="value" required /></label>
+                <label id="box-impostos">IPI <input id="box-impostos" type="checkbox" value="value" required /></label>    
+                <label id="box-impostos">PIS <input id="box-impostos" type="checkbox" value="value" required /></label>
+                <label id="box-impostos">COFINS <input id="box-impostos" type="checkbox" value="value" required /></label>
+                <label id="total-nota">Total da Nota R$ <input id="total-nota" type="number" format="currency" placeholder="1.000,00" required /></label>
+                <button id="submit">Gravar</button>
+        </div>            
     </form>
 </body>
 </html>
